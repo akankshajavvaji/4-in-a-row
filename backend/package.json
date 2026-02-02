@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "pg": "^8.18.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.19.0"
+  }
+}

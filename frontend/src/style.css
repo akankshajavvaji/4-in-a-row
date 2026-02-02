@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background: #020617;
+  color: #e5e7eb;
+  font-family: system-ui;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 28px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 14px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #38bdf8;
+  color: #020617;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.board {
+  background: #020617;
+  padding: 14px;
+  border-radius: 16px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 54px;
+  height: 54px;
+  margin: 6px;
+  border-radius: 50%;
+  background: #334155; /* empty */
+}
+
+.cell.p1 {
+  background: #3b82f6; /* 🔵 blue */
+}
+
+.cell.p2 {
+  background: #ec4899; /* 💗 pink */
+}
+
+.cell.bot {
+  background: #facc15; /* 🤖 yellow */
+}
+
+
+.status {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.leaderboard-card {
+  margin-top: 28px;
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 16px;
+  width: 320px;
+}
+
+.leaderboard-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+.leaderboard-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #1e293b;
+}
