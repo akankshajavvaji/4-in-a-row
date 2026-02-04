@@ -147,11 +147,16 @@ Create leaderboard table:
 
 APPLICATION HOSTING
 
-The application currently runs locally using the setup above.
-It can be deployed using platforms such as:
-- Render
-- Railway
-- Fly.io
+The application is fully functional when run locally using the setup instructions above,
+including real-time multiplayer gameplay, bot fallback, reconnection handling, and a
+persistent PostgreSQL-backed leaderboard.
+
+The backend has also been deployed on cloud platforms such as Render for validation.
+On free-tier hosting, PostgreSQL requires separate managed database provisioning and
+schema migration. Since this is an infrastructure concern and independent of core game
+logic, the project is documented and demonstrated primarily via local execution.
+
+
 
 --------------------------------------------------
 
@@ -173,7 +178,4 @@ FUTURE IMPROVEMENTS
 - Kafka-based analytics pipeline
 
 --------------------------------------------------
-
-AUTHOR
-Built by <Akanksha Javvaji>
 
